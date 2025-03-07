@@ -1,6 +1,6 @@
 def main():
 
-    with open("bookbot/books/Frankenstein.txt") as f:
+    with open("books/Frankenstein.txt") as f:
         file_contents = f.read()
     
         lowered_words = file_contents.lower()
